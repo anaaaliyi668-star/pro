@@ -1,0 +1,22 @@
+table{
+    border: 0px solid #c4dcf3;
+    border-collapse:collapse;
+}
+tfoot{
+    text-align:left;
+}
+th,td{
+    margin:10px;
+    padding:15px;
+    font-size:15px;
+    font-weight:bold;
+    font-family:Georgia,"Times New Roman",Times,Serif;
+    font-style:italics;
+}
+th{
+    background-color:#427fef;
+    color:white;
+}
+tbody tr:nth-child(odd){
+    background-color:#eef7ff;
+}
